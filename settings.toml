@@ -1,0 +1,8 @@
+CIRCUITPY_WIFI_SSID = "SSID goes here"
+CIRCUITPY_WIFI_PASSWORD = "Password goes here"
+
+# Standard-time offset from UTC in hours (e.g. -5 = US Eastern, 5.5 = India, 1 = Central Europe)
+TZ_OFFSET = "-6"
+
+# Daylight saving rule: "us", "eu", or "none"
+DST_RULE = "none"
