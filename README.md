@@ -12,7 +12,8 @@ Minutes: 1 LED, green #commented code for 2 LEDs, but I though it looked strange
 Hours: 3 LEDs, red, centered on the hour position (12-hour dial, 5 LEDs per hour, creeping forward with the minutes)
 Overlapping LEDs blend additively, so every hand stays visible.
 Re-syncs with NTP every 6 hours and recovers from errors by resetting.
-1. Libraries
+
+Required libraries:
 Copy these from the CircuitPython library bundle into CIRCUITPY/lib:
 neopixel.mpy
 adafruit_ntp.mpy
